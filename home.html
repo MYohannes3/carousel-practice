@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <script src="https://kit.fontawesome.com/6f333ea257.js" crossorigin="anonymous"></script>
+  <!-- used google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Josefin+Sans&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <title>Tour and Travel</title>
+</head>
+
+<body class="container bg-success bg-opacity-10">
+  <header class="sticky-top ">
+    <nav class="navbar nav-tabs navbar-expand-lg navbar-light bg-light py-0">
+      <!-- py-3 will add height to my nav -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="IMG/Ethio/Ethio-tours.png" alt="my_company_logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destinations">DESTINATIONS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#packages">TOUR PACKAGE</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT US</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- used carousel slides + indicators + captions + crossfade carousel-fade and links  data-bs-interval="3000"-->
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner ">
+      <!-- rounded-pill: rounded-inner will make the carousel round  -->
+      <div class="carousel-item active ">
+        <img src="IMG/Ethio/Fasil_Castle.jpeg" class="w-100 h-100 " alt="...">
+        <!-- added h-100, which sets the height  -->
+        <div class="carousel-caption  d-none d-md-block">
+          <h5 class="display-5">FASIL CASTLE</h5>
+          <p>Fortress located in Gondar, Amhara Region, Ethiopia. It was founded in the 17th century by Emperor
+            Fasilides and was the home of Ethiopian emperors.<a href="https://www.google.com/" target="">Read More</a>
+          </p>
+
+          <!-- <button onclick="window.location.href='https://w3docs.com';">Read More</button> -->
+
+          <a href="www.google.com" target="_blank" class="btn btn-outline-info btn-md " tabindex="-1" role="button"
+            aria-disabled="true">Book a Tour</a>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="IMG/Ethio/Sof omer cave.jpg" class=" w-100 h-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="display-5">Sof Omar Caves</h5>
+          <p>The longest cave in Ethiopia at 15.1 kilometres (9.4 mi) long. When surveyed in 1972, it was the longest
+            cave in Africa.<a href="https://www.google.com/" target="_blank">Read More</a></p>
+          <a href="www.google.com" target="_blank" class="btn btn-outline-info btn-md " tabindex="-1" role="button"
+            aria-disabled="true">Book a Tour</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="IMG/Ethio/Axum.jpeg" class="w-100 h-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="display-5">Obeliesk Of Axum</h5>
+          <p>Built in the 4th century by King Ezana, the 160 tonne monument had stood in place for over a thousand
+            years, until the colonial aspirations of a nation far from Ethiopia arrived at her borders.<a
+              href="https://www.google.com/" target="_blank">Read More</a></p>
+
+          <a href="www.google.com" target="_blank" class="btn btn-outline-info btn-sm " tabindex="-1" role="button"
+            aria-disabled="true">Book a Tour</a>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="IMG/Ethio/BlueNileFalls-1.webp" class="w-100 h-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="display-4">Blue Nile Falls( Tis Abay)</h5>
+          <p>known as Tis Abay in Amharic, meaning "great smoke". It is situated on the upper course of the river,
+            about 30 kilometres (19 mi) downstream from the town of Bahir Dar and Lake Tana.<a
+              href="https://www.google.com/" target="_blank">Read More</a></p>
+          <a href="www.google.com" target="_blank" class="btn btn-outline-info btn-md " tabindex="-1" role="button"
+            aria-disabled="true">Book a Tour</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="IMG/Ethio/Lalibela.jpg" class="w-100 h-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="display-4">Fifth slide label</h5>
+          <p>Carved out of solid rock in the 12th century, the churches are described by UNESCO as a World Heritage site
+            and considered as the ‘8th wonder of the world’.<a href="https://www.google.com/" target="_blank">Read
+              More</a></p>
+          <a href="www.google.com" target="_blank" class="btn btn-outline-info btn-md " tabindex="-1" role="button"
+            aria-disabled="true">Book a Tour</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+    </button>
+  </div>
+
+  <div id="destinations" class=" container slide text-center d-flex flex-column justify-content-center py-5 my-3">
+    <h2 class="text-center fw-bold display-6">Historical <span class="text-danger">Sites</span> </span></h2>
+
+    <div id="speaker-cards" class="row mt-3">
+
+      <div class="speaker-card col">
+        <img src="IMG/Ethio/Fasil.jpeg" alt="">
+        <h5 class="text-uppercase fw-bold mt-3 ">Gondar</h5>
+        <p class="text-start fst-italic">Gonder was the 17th Century capital of Ethiopia, and is notable for its
+          medieval Castles and churches.
+          The City's unique imperial compound contains a number of Castles built between 1632 and 1855 by the various
+          Emperors who reigned during this period.</p>
+
+
+      </div>
+
+      <div class="speaker-card col">
+        <img src="IMG/Ethio/Axum.jpeg" alt="">
+        <h5 class="text-uppercase fw-bold mt-3">Axum</h5>
+        <p class="text-start fst-italic">In its day, was a great commercial centre, issuing its own currency and trading
+          with Egypt, Arabia, Persia, India and even Ceylon. The settlement was also the site of Ethiopia's oldest
+          church,
+          which dated back to the coming of Christianity as the state religion,</p>
+
+      </div>
+
+      <div class="speaker-card col">
+        <img src="IMG/Ethio/Lalibela.jpg" alt="">
+        <h5 class="text-uppercase fw-bold mt-3">Lalibela</h5>
+        <p class="text-start fst-italic">A medieval settlement in the Lasta area of Wallo, lies at the centre of an
+          extensive complex of rock churches. Some can be reached by one or two hours' drive,
+          others are a full day's journey. Lalibela has 11 remarkable rock-hewn monolithic churches,
+          believed to have been built by King Lalibela in the late 12th or early 13th Century.</p>
+
+      </div>
+
+    </div>
+
+    <div id="speaker-cards" class="row mt-3">
+
+      <div class="speaker-card col">
+        <img src="IMG/Ethio/Debre_damo.jpg" alt="">
+        <h5 class="text-uppercase fw-bold mt-3">Debre Damo</h5>
+        <p class="text-start fst-italic"> Some 76 Kilometers from Axum is the monastery of Debre Damo ( closed to
+          Women), which is said to have the oldest existing intact church in Ethiopia.
+          Local tradition says that Abune Aregawi, one of the nine Saints, built the church in the 16th Century.
+          The Monastery of Debre Damo can only be reached by rope pulley.</p>
+
+
+      </div>
+
+      <div class="speaker-card col">
+        <img src="IMG/Ethio/ertale-1-1024x640.jpg" alt="">
+        <h5 class="text-uppercase fw-bold mt-3">Ert-Ale</h5>
+        <p class="text-start fst-italic">Ranks as one of the most alluring and physical challenging natural attraction
+          in Ethiopia. Ert-Ale rises from below sea level to an altitude of 613m
+          located in the similarly named range in the hostile Danakil depression in northeast Ethiopia.</p>
+
+      </div>
+
+      <div class="speaker-card col">
+        <img src="IMG/Ethio/Harar_Gate_(211539305)_(cropped).jpeg" alt="">
+        <h5 class="text-uppercase fw-bold mt-3">Harar City</h5>
+        <p class="text-start fst-italic">The city of Harar is an ancient (1520) and holy city. Always an important
+          trading center, the city is famous for its ancient buildings, its great city walls and
+          as a center of learning Muslim scholarship ( the town has 99 mosques). The city is well known for its superb
+          handicrafts that include woven textiles, basket ware, silverware and handsomely bound books,
+          Harar has been a place of pilgrimage from all over the world for many years.</p>
+
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+
+<!-- Working on adding accordion -->
+
+
+  
+  
+  <div id="packages" class="container slide d-flex flex-column text-center  align-items-center  text-dark p-5">
+    <h1>Visit Ethiopia</h1>
+    <h3 class="fst-italic">YOU WILL FIND OUR MOST POPULAR AND BOOKED TOURS HERE. <br>
+      ALL TOURS CAN BE CUSTOMIZED TO YOUR PREFERENCE. </h3>
+    <p class="w-25 fst-italic">EMAIL US TO GET THE BEST PRICES.</p>
+    <div class="d-grid gap-2 d-md-block p-3">
+      <button type="button" class="btn btn-outline-success btn-sm">View Tours</button>
+      <button type="button" class="btn btn-outline-success btn-sm">Book Now</button>
+    </div>
+  </div>
+
+  <div id="contact" class="container slide align-items-center">
+
+    <div class="row">
+
+      <div id="contact-details" class="col-12 col-md-6 mt-5 p-5">
+        <h2>Ethiopia</h2>
+        <p class="fst-italic">A country endowed with fabulous wildlife, epic natural beauty, mind-blowing outdoor experiences,
+          and Africa’s most fascinating history, Ethiopia remains nothing like anywhere else in the world.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16139427.32384599!2d31.454563654332333!3d9.037300342949905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1635d0cedd6cfd2b%3A0x7bf6a67f5348c55a!2sEthiopia!5e0!3m2!1sen!2sus!4v1666768074395!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <!-- <div id="contact-image" class="col-12 mt-5 col-md-6 ">
+        <img src="IMG/pexels-sevenstorm-juhaszimrus-443399.jpg" alt="Bittwise building in Chicago">
+      </div>-->
+
+
+      <div id="contact" class="col-12 mt-5 col-md-6 p-5">
+        <h2>Contact Us</h2>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email">
+        </div>
+        <div class="mb-3">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Message subject">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-success">Send Message</button>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="m-3">
+    <div class="social text-center">
+      <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram fs-1 "></i></a>
+      <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter fs-1"></i></i></a>
+      <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin fs-1"></i></a>
+    </div>
+
+    <div class="copyright text-center fs-6">
+      <p> Copyright &copy; 2022 M. Yohannes</p>
+    </div>
+  </footer>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

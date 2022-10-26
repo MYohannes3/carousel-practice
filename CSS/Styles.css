@@ -1,0 +1,33 @@
+*{
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+button {
+    max-width: 200px;
+}
+
+img {
+    max-width: 100%;
+  
+    }
+
+.logo {
+    height: 100px;
+}
+
+.slide{
+    min-height: 300px;
+}
+
+.carousel-item {
+    height: 35rem;
+    background-color: #000;
+}
+
+.carousel-item img {
+ opacity: 0.4;   
+}
